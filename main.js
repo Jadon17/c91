@@ -32,7 +32,7 @@ check_button = "<br><br><button class = 'btn btn-info' onclick = 'check()' > Che
 row = question + input_box + check_button;
 
 document.getElementById("output").innerHTML = row;
-document.getElementById("number_1").innerHTML = ""
-document.getElementById("number_2").innerHTML = ""
+document.getElementById("number_1").value = " " ;
+document.getElementById("number_2").value = " " ;
 
    }
